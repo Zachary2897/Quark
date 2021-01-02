@@ -90,10 +90,10 @@ public final class EmoteHandler {
 		if(e instanceof AbstractClientPlayer) {
 			AbstractClientPlayer player = (AbstractClientPlayer) e;
 			String name = player.getName();
-			
-			resetPlayer(player);
-			
+
 			if(playerEmotes.containsKey(name)) {
+				resetPlayer(player);
+
 				EmoteBase emote = playerEmotes.get(name);
 				boolean done = emote.isDone();
 
@@ -140,7 +140,7 @@ public final class EmoteHandler {
 					resetPlayer(player);
 				} else
 					emote.update();
-			} else resetPlayer(player);
+			}
 		}
 	}
 	
