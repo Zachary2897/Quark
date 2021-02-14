@@ -1,5 +1,6 @@
 # Quark
-Small things.
+
+This is a fork of Quark by Vazkii.
 
 This mod requires [AutoRegLib](https://github.com/Vazkii/AutoRegLib).
 
