@@ -148,6 +148,7 @@ task sortArtifacts(type: Copy) {
     }
 }
 
+
 def parseConfig(File config) {
     config.withReader {
         def prop = new Properties()
