@@ -3,7 +3,7 @@ buildscript {
         jcenter()
         maven {
             name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            url = "https://files.minecraftforge.net/maven"
         }
     }
     dependencies {
@@ -28,12 +28,12 @@ repositories {
     maven {
         // for AutoRegLib
         name "blamejared"
-        url "http://maven.blamejared.com/"
+        url "https://maven.blamejared.com/"
     }
     maven {
         // for JEI
         name = "promwml16"
-        url "http://dvs1.progwml6.com/files/maven"
+        url "https://dvs1.progwml6.com/files/maven"
     }
 }
 
@@ -72,7 +72,6 @@ jar {
                 "FMLAT": "quark_at.cfg"
         )
     }
-
 }
 
 processResources {
