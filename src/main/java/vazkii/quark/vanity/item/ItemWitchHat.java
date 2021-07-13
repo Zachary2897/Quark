@@ -57,7 +57,7 @@ public class ItemWitchHat extends ItemModArmor implements IQuarkItem {
 	@Nonnull
 	@Override
 	public IRarity getForgeRarity(@Nonnull ItemStack stack) {
-		return EnumRarity.RARE;
+		return EnumRarity.UNCOMMON;
 	}
 
 	@Override

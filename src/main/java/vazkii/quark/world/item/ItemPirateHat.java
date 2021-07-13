@@ -14,9 +14,7 @@ import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.IRarity;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import vazkii.arl.item.ItemModArmor;
@@ -53,12 +51,6 @@ public class ItemPirateHat extends ItemModArmor implements IQuarkItem {
 	@SideOnly(Side.CLIENT)
 	public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type) {
 		return "quark:textures/entity/pirate_hat.png";
-	}
-
-	@Nonnull
-	@Override
-	public IRarity getForgeRarity(@Nonnull ItemStack stack) {
-		return EnumRarity.RARE;
 	}
 
 }
