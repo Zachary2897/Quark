@@ -5,12 +5,11 @@
   "description": "Small things.",
   "version": "${version}",
   "mcversion": "1.12.2",
-  "logoFile": "",
-  "url": "https://quark.vazkii.net",
+  "url": "https://quarkmod.net",
   "updateUrl": "",
   "authorList": ["Vazkii", "wiiv", "Zachary2897"],
-  "credits": "",
-  "parent": "",
+  "credits": "Originally created by Vazkii.",
+  "logoFile": "",
   "screenshots": [],
   "dependencies": []
 }
